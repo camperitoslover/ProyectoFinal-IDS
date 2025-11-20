@@ -1,4 +1,4 @@
-
+#Indicaciones del juego
 
 print("\nJuego: Adivina el Significado")
 input("❥ Presiona ENTER para continuar")
