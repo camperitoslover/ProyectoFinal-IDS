@@ -1,11 +1,6 @@
 def minijuego_neverardo(puntos):
     #Indicaciones
     print("\nJuego: Economía 101 con Never")
-    input("\n( ❥ Presiona ENTER para continuar )")
-    print("\n¿Puedes seguirle el ritmo a Teodoro en programación?")
-    input("❥ CONTINUAR")
-    print("\nLlena los espacios con las palabras faltantes para que el código funcione")
-    input("❥ CONTINUAR")
 
     #Conteo de puntos adicionales
     puntos_adicionales = 0
