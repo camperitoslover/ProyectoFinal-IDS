@@ -15,6 +15,11 @@ from Neverardo_dialogos import dialogos_neverardo
 from Sabadinguez_dialogos import dialogos_sabadinguez
 from Teodoro_dialogos import dialogos_teodoro
 
+from Julian_minijuego import minijuego_julian
+from Neverardo_minijuego import minijuego_neverardo
+from Sabadínguez_minijuego import minijuego_sabadinguez
+from Teodoro_minijuego import minijuego_teodoro
+
 # Puntos de afinidad
 
 puntos = {
@@ -54,6 +59,27 @@ while ronda_actual <= MAX_RONDAS:
     else:
         print("Opción invalida")
     n += 5
+
+# Minijuego para puntos extra
+
+print("\nAntes de confesar tus sentimientos, tienes la oportunidad de jugar un minijuego con el personaje de tu elección para ganar puntos extra.")
+print("1. Sabadínguez - el amante de las letras y las tortugas")
+print("2. Julian Apple - el rebelde genio de las matemáticas")
+print("3. Never - el líder alegre del consejo estudiantil")
+print("4. Teodoro - el programador tímido")
+minijuego = int(input("\n¿Con que personaje quieres jugar): "))
+
+if minijuego == 1:
+    puntos["Sabadínguez"] = minijuego_sabadinguez(puntos)
+elif minijuego == 2:
+    puntos["Julian"] = minijuego_julian(puntos)
+elif minijuego == 3:
+    puntos["Neverardo"] = minijuego_neverardo(puntos)
+elif minijuego == 4:
+    puntos["Teodoro"] = minijuego_teodoro(puntos)
+else:
+    print("Opción invalida, no ganas puntos extra")
+
 
 # Resultado final (Confesión)
 
