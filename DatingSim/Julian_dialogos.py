@@ -2,18 +2,15 @@
 
 def dialogos_julian(eleccion_actual,ronda_actual,puntos):
     
-    from main import esperar
-    
     if eleccion_actual == 2:
         print("\nJulian: Ey, te ves como si necesitaras una broma para animarte.")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Solo tú logras animarme tan rápido.")
         print("2. Dale, sorpréndeme.")
         print("3. No estoy de humor.")
         r = int(input("\nElige una opción (1-3): "))
         ronda_actual += 1
-        
 
         if r == 1:
             print("\nJulian: Uy, qué peligroso, me vas a hacer sonrojar.")
@@ -25,12 +22,11 @@ def dialogos_julian(eleccion_actual,ronda_actual,puntos):
             print("\nJulian: Entonces voy a tener que insistir hasta que lo estés.")
         else:
             print("\nOpción inválida")
-        esperar()
-    
+        input("\n( ❥ Presiona ENTER para continuar )")
 
     elif eleccion_actual == 7:
         print("\nJulian: ¿Probaste la pizza nueva del comedor?")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Si quieres, la probamos juntos después.")
         print("2. Todavía no, ¿está rica?")
@@ -49,11 +45,11 @@ def dialogos_julian(eleccion_actual,ronda_actual,puntos):
             puntos["Julian"] -= 2
         else:
             print("\nOpción inválida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
 
-    if eleccion_actual == 12:
+    elif eleccion_actual == 12:
         print("\nJulian: Fallé un examen... y ni estudiando.")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Seguro igual te fue mejor que a todos.")
         print("2. Podemos estudiar juntos la próxima.")
@@ -71,11 +67,11 @@ def dialogos_julian(eleccion_actual,ronda_actual,puntos):
             print("\nJulian: Touché... pero me dolió igual.")
         else:
             print("\nOpción inválida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
 
-    if eleccion_actual == 17:
+    elif eleccion_actual == 17:
         print("\nJulian: ¿Me ves como alguien coqueto?")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Sí, pero contigo no me molesta.")
         print("2. Un poquito.")
@@ -93,11 +89,11 @@ def dialogos_julian(eleccion_actual,ronda_actual,puntos):
             print("\nJulian: Admito nada.")
         else:
             print("\nOpción inválida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
 
-    if eleccion_actual == 22:
+    elif eleccion_actual == 22:
         print("\nJulian: No me gusta ver a mis amigos tristes.")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Entonces quédate a mi lado.")
         print("2. Qué lindo eres.")
@@ -115,11 +111,11 @@ def dialogos_julian(eleccion_actual,ronda_actual,puntos):
             print("\nJulian: Con tal de verte mejor, hago lo que sea.")
         else:
             print("\nOpción inválida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
 
-    if eleccion_actual == 27:
+    elif eleccion_actual == 27:
         print("\nJulian: Te ves súper bien hoy... Digo, normal.")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. ¿También te gusto normal?")
         print("2. Gracias, tú siempre luces bien.")
@@ -138,11 +134,11 @@ def dialogos_julian(eleccion_actual,ronda_actual,puntos):
             puntos["Julian"] += 1
         else:
             print("\nOpción inválida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
 
-    if eleccion_actual == 32:
+    elif eleccion_actual == 32:
         print("\nJulian: A veces quiero tomarme la vida con calma.")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Eso es lo que más me gusta de ti.")
         print("2. Deberías relajarte menos.")
@@ -160,11 +156,11 @@ def dialogos_julian(eleccion_actual,ronda_actual,puntos):
             puntos["Julian"] += 2
         else:
             print("\nOpción inválida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
 
-    if eleccion_actual == 37:
+    elif eleccion_actual == 37:
         print("\nJulian: Me dijeron que eras divertido.")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("¿Qué respondes?")
         print("1. Solo cuando estoy contigo.")
         print("2. A veces.")
@@ -182,11 +178,11 @@ def dialogos_julian(eleccion_actual,ronda_actual,puntos):
             print("\nJulian: Pues yo creo que te quedaste corto.")
         else:
             print("\nOpción inválida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
 
-    if eleccion_actual == 42:
+    elif eleccion_actual == 42:
         print("\nJulian: ¿Quieres venir a ver un partido conmigo?")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Sí, solo si te sientas a mi lado.")
         print("2. Suena bien.")
@@ -205,11 +201,11 @@ def dialogos_julian(eleccion_actual,ronda_actual,puntos):
             puntos["Julian"] -= 1
         else:
             print("\nOpción inválida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
 
-    if eleccion_actual == 47:
+    elif eleccion_actual == 47:
         print("\nJulian: Si fueras un sabor de pizza... ¿cuál serías?")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. El que más te guste a ti.")
         print("2. Tal vez pepperoni.")
@@ -227,4 +223,6 @@ def dialogos_julian(eleccion_actual,ronda_actual,puntos):
             print("\nJulian: Lo simple también tiene su encanto.")
         else:
             print("\nOpción inválida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
+        
+    return ronda_actual

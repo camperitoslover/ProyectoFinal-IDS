@@ -2,11 +2,9 @@
 
 def dialogos_neverardo(eleccion_actual,ronda_actual,puntos):
     
-    from main import esperar
-    
     if eleccion_actual == 3:
         print("\nNeverardo: ¿Ya entregaste tu formulario para el comité cultural?")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Sí, porque quiero ayudarte en lo que pueda.")
         print("2. Aún no, pero lo haré.")
@@ -24,11 +22,11 @@ def dialogos_neverardo(eleccion_actual,ronda_actual,puntos):
             print("\nNeverardo: Está bien, respeto tu decisión.")
         else:
             print("Opción inválida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
 
-    if eleccion_actual == 8:
+    elif eleccion_actual == 8:
         print("\nNeverardo: La escuela necesita más voluntarios para el evento.")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Estoy contigo, dime qué necesitas.")
         print("2. Tal vez pueda apoyar un rato.")
@@ -46,11 +44,11 @@ def dialogos_neverardo(eleccion_actual,ronda_actual,puntos):
             print("\nNeverardo: Jaja, comprendo. A veces cansa.")
         else:
             print("Opción inválida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
 
-    if eleccion_actual == 13:
+    elif eleccion_actual == 13:
         print("\nNeverardo: A veces me preocupa no estar haciendo suficiente.")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Haces más que cualquiera aquí.")
         print("2. Te entiendo, pero descansa.")
@@ -68,11 +66,11 @@ def dialogos_neverardo(eleccion_actual,ronda_actual,puntos):
             print("\nNeverardo: Tal vez sí... no lo sé.")
         else:
             print("\nOpción inválida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
 
-    if eleccion_actual == 18:
+    elif eleccion_actual == 18:
         print("\nNeverardo: ¿Qué piensas de la economía? Es mi materia favorita.")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Podrías enseñarme, me gustaría aprender contigo.")
         print("2. Suena interesante... supongo.")
@@ -90,11 +88,11 @@ def dialogos_neverardo(eleccion_actual,ronda_actual,puntos):
             print("\nNeverardo: Jaja, está bien. No todos disfrutan lo mismo.")
         else:
             print("\nOpción inválida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
 
-    if eleccion_actual == 23:
+    elif eleccion_actual == 23:
         print("\nNeverardo: A veces me siento abrumado por tantas responsabilidades.")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Puedes apoyarte en mí cuando lo necesites.")
         print("2. Debes delegar.")
@@ -112,11 +110,11 @@ def dialogos_neverardo(eleccion_actual,ronda_actual,puntos):
             print("\nNeverardo: Jaja, eso también es cierto.")
         else:
             print("\nOpción inválida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
 
-    if eleccion_actual == 28:
+    elif eleccion_actual == 28:
         print("\nNeverardo: Me gustaría que hubiera más armonía en la escuela.")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Yo trabajaré contigo para lograrlo.")
         print("2. Sí, sería bonito.")
@@ -134,11 +132,11 @@ def dialogos_neverardo(eleccion_actual,ronda_actual,puntos):
             print("\nNeverardo: Entiendo... cada quien sus prioridades.")
         else:
             print("\nOpción inválida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
 
-    if eleccion_actual == 33:
+    elif eleccion_actual == 33:
         print("\nNeverardo: ¿Has pensado en unirte al consejo estudiantil?")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Si tú estás ahí, claro que sí.")
         print("2. Podría considerarlo.")
@@ -156,11 +154,11 @@ def dialogos_neverardo(eleccion_actual,ronda_actual,puntos):
             print("\nNeverardo: Está bien, no es para todos.")
         else:
             print("Opción inválida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
 
-    if eleccion_actual == 38:
+    elif eleccion_actual == 38:
         print("\nNeverardo: Me alegra cuando la gente coopera.")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Siempre cooperaré contigo.")
         print("2. Hago lo que puedo.")
@@ -178,11 +176,11 @@ def dialogos_neverardo(eleccion_actual,ronda_actual,puntos):
             print("\nNeverardo: Está bien, no todos pueden con todo.")
         else:
             print("\nOpción inválida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
 
-    if eleccion_actual == 43:
+    elif eleccion_actual == 43:
         print("\nNeverardo: ¿Has pensado en tu futuro?")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Quiero construir uno donde tú estés.")
         print("2. Un poco.")
@@ -200,11 +198,11 @@ def dialogos_neverardo(eleccion_actual,ronda_actual,puntos):
             print("\nNeverardo: Jaja, a veces también me pasa.")
         else:
             print("\nOpción inválida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
 
-    if eleccion_actual == 48:
+    elif eleccion_actual == 48:
         print("\nNeverardo: Tu actitud últimamente me inspira.")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Tú también me inspiras, más de lo que imaginas.")
         print("2. Gracias.")
@@ -223,4 +221,6 @@ def dialogos_neverardo(eleccion_actual,ronda_actual,puntos):
             puntos["Neverardo"] += 1
         else:
             print("Opción inválida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
+
+    return ronda_actual

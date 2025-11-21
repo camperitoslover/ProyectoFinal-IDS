@@ -40,12 +40,8 @@ while ronda_actual <= MAX_RONDAS:
     print("4. Teodoro - el programador tímido")
     eleccion = int(input("\n¿Con quién te gustaría hablar ahora? (1-4): "))
     eleccion_actual = n + eleccion
-    
-    print(eleccion_actual)
-    print(ronda_actual)
-    print(n)
         
-    # Ejecución de dialogos de personaje seleccionado
+# Ejecución de dialogos de personaje seleccionado
 
     if eleccion == 1:
         ronda_actual = dialogos_sabadinguez(eleccion_actual, ronda_actual, puntos)

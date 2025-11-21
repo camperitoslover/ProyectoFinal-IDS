@@ -2,11 +2,9 @@
 
 def dialogos_sabadinguez(eleccion_actual,ronda_actual,puntos):
     
-    from main import esperar
-
     if eleccion_actual == 1:
-        print("\nSabadínguez: ¿Qué haces perdiendo el tiempo aquí? …Digo, ¿necesitabas algo?")
-        esperar()
+        print("\nSabadínguez: ¿Qué haces perdiendo el tiempo aquí? ...Digo, ¿necesitabas algo?")
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Solo quería hablar contigo un rato, me gusta tu compañía.")
         print("2. Pasaba por aquí, nada importante.")
@@ -24,11 +22,11 @@ def dialogos_sabadinguez(eleccion_actual,ronda_actual,puntos):
             print("\nSabadínguez: Entonces mejor vete, no quiero verte ahora.")
         else:
             print("\nOpción invalida")
-        esperar()
 
-    if eleccion_actual == 6:
+
+    elif eleccion_actual == 6:
         print("\nSabadínguez: Estoy leyendo esta novela, aunque probablemente no te interese.")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Claro que me interesa, ¿de qué trata?")
         print("2. Yo casi no leo, pero me alegra verte entusiasmado.")
@@ -47,11 +45,11 @@ def dialogos_sabadinguez(eleccion_actual,ronda_actual,puntos):
             puntos["Sabadínguez"] -=2
         else:
             print("\nOpción invalida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
     
-    if eleccion_actual == 11:
+    elif eleccion_actual == 11:
         print("\nSabadínguez: Me dijeron que hay tortugas en el estanque hoy.")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. ¿Quieres ir a verlas juntos?")
         print("2. Qué curioso.")
@@ -69,11 +67,11 @@ def dialogos_sabadinguez(eleccion_actual,ronda_actual,puntos):
             puntos["Sabadínguez"] += 1
         else:
             print("\nOpción invalida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
     
-    if eleccion_actual == 16:
+    elif eleccion_actual == 16:
         print("\nSabadínguez: Recordé algo que me dijiste hace días. No pensé que fuera importante...")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Me alegra que lo recuerdes, significa mucho.")
         print("2. ¿En serio te acuerdas de eso?")
@@ -91,11 +89,11 @@ def dialogos_sabadinguez(eleccion_actual,ronda_actual,puntos):
             print("\nSabadínguez: No...Mejor olvidalo.")
         else:
             print("\nOpción invalida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
     
-    if eleccion_actual == 21:
+    elif eleccion_actual == 21:
         print("\nSabadínguez: A veces siento que la gente no me entiende.")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Yo quiero entenderte, si me dejas.")
         print("2. Bueno, eres complicado.")
@@ -113,11 +111,11 @@ def dialogos_sabadinguez(eleccion_actual,ronda_actual,puntos):
             puntos["Sabadínguez"] -= 1
         else:
             print("\nOpción invalida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
     
-    if eleccion_actual == 26:
+    elif eleccion_actual == 26:
         print("\nSabadínguez: El club de literatura necesita más miembros...")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Podría unirme, solo si tú me enseñas.")
         print("2. Suena interesante.")
@@ -135,11 +133,11 @@ def dialogos_sabadinguez(eleccion_actual,ronda_actual,puntos):
             print("\nSabadínguez: Entiendo...")
         else:
             print("\nOpción invalida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
     
-    if eleccion_actual == 31:
+    elif eleccion_actual == 31:
         print("\nSabadínguez: No es que quiera pasar tiempo contigo... solo coincidimos mucho.")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Si coincidimos tanto, tal vez es destino.")
         print("2. Sí, pura casualidad.")
@@ -157,11 +155,11 @@ def dialogos_sabadinguez(eleccion_actual,ronda_actual,puntos):
             print("\nSabadínguez: Claro que no, olvidalo.")
         else:
             print("\nOpción invalida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
     
-    if eleccion_actual == 36:
+    elif eleccion_actual == 36:
         print("\nSabadínguez: ¿Te gustan los poemas?")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Especialmente si tú los lees.")
         print("2. Algunos.")
@@ -180,11 +178,11 @@ def dialogos_sabadinguez(eleccion_actual,ronda_actual,puntos):
             puntos["Sabadínguez"] -= 2
         else:
             print("\nOpción invalida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
     
-    if eleccion_actual == 41:
+    elif eleccion_actual == 41:
         print("\nSabadínguez: Hoy estás... diferente.”")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. ¿Me lo dices porque me estás observando?")
         print("2. ¿Diferente cómo?")
@@ -203,11 +201,11 @@ def dialogos_sabadinguez(eleccion_actual,ronda_actual,puntos):
             puntos["Sabadínguez"] -= 2
         else:
             print("\nOpción invalida")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
     
-    if eleccion_actual == 46:
+    elif eleccion_actual == 46:
         print("\nSabadínguez: No sé por qué sigo hablando contigo...")
-        esperar()
+        input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. Porque en el fondo te gusto.")
         print("2. Porque no tienes a quién más molestar.")
@@ -225,5 +223,6 @@ def dialogos_sabadinguez(eleccion_actual,ronda_actual,puntos):
             print("\nSabadínguez: No quise decir eso.")
         else:
             print("\nOpción invalida")
-        esperar()
-        
+        input("\n( ❥ Presiona ENTER para continuar )")
+
+    return ronda_actual
