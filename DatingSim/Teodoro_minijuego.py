@@ -8,7 +8,7 @@ def minijuego_teodoro(puntos):
     input("❥ CONTINUAR")
 
     #Conteo de puntos adicionales
-    puntos = 0
+    puntos_adicionales = 0
 
     #Definición de funciones para dinámica de consola
     lista = []
@@ -45,18 +45,14 @@ def minijuego_teodoro(puntos):
             print()
             a()
             input("\n¡Tu código ha funcionado! Felicidades. Presiona ENTER para continuar.")
-            puntos += 1
+            puntos_adicionales += 1
         else:
             input("\nERROR. Presiona ENTER para continuar.")
 
     #Conclusión y puntos del juego
-    if puntos >= 4:
+    if puntos_adicionales >= 4:
         print("\nTeodoro: Es… impresionante cómo resolviste todo. Ehm… si quieres… puedo enseñarte un par de trucos más de programación después.\n")
         print("\nFelicidades ganas puntos adicionales")
         puntos["Teodoro"] += 5
     else:
         print("\nTeodoro: Oh… no te preocupes. En programación… todos nos equivocamos al inicio.\n")
-    
-    return puntos["Teodoro"]
-
-    #Añadir puntos adicionales al puntaje central

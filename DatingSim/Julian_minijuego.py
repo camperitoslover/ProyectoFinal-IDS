@@ -37,5 +37,3 @@ def minijuego_julian(puntos):
         puntos["Julian"] += 5
     else:
         print("\nJulian Apple: Bueno... No a todos se nos dan los números\n")
-        
-    return puntos["Julian"]
