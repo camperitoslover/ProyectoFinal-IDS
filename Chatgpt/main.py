@@ -6,7 +6,6 @@
 ronda_actual = 1
 MAX_RONDAS = 10
 n=0
-posibles_elecciones = [1,2,3,4]
 
 def esperar():
     input("\n( ❥ Presiona ENTER para continuar )")
@@ -41,19 +40,24 @@ while ronda_actual <= MAX_RONDAS:
     print("4. Teodoro - el programador tímido")
     eleccion = int(input("\n¿Con quién te gustaría hablar ahora? (1-4): "))
     eleccion_actual = n + eleccion
-    n += 5
+    
+    print(eleccion_actual)
+    print(ronda_actual)
+    print(n)
         
     # Ejecución de dialogos de personaje seleccionado
 
-    if eleccion in posibles_elecciones:
-        dialogos_sabadinguez(eleccion_actual,ronda_actual,puntos)
-        dialogos_julian(eleccion_actual,ronda_actual,puntos)
-        dialogos_neverardo(eleccion_actual,ronda_actual,puntos)
-        dialogos_teodoro(eleccion_actual,ronda_actual,puntos)
-        
-    
+    if eleccion == 1:
+        ronda_actual = dialogos_sabadinguez(eleccion_actual, ronda_actual, puntos)
+    elif eleccion == 2:
+        ronda_actual = dialogos_julian(eleccion_actual, ronda_actual, puntos)
+    elif eleccion == 3:
+        ronda_actual = dialogos_neverardo(eleccion_actual, ronda_actual, puntos)
+    elif eleccion == 4:
+        ronda_actual = dialogos_teodoro(eleccion_actual, ronda_actual, puntos)
     else:
         print("Opción invalida")
+    n += 5
 
 # Resultado final (Confesión)
 
@@ -116,3 +120,4 @@ while confesion == True:
             print("\nFin del Juego")
             print("¡Gracias por Jugar!")
             break
+    break

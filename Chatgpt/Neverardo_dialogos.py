@@ -1,7 +1,6 @@
 # Ruta 3: Neverardo Llanura
 
 def dialogos_neverardo(eleccion_actual,ronda_actual,puntos):
-    
     from main import esperar
     
     if eleccion_actual == 3:
@@ -26,7 +25,7 @@ def dialogos_neverardo(eleccion_actual,ronda_actual,puntos):
             print("Opción inválida")
         esperar()
 
-    if eleccion_actual == 8:
+    elif eleccion_actual == 8:
         print("\nNeverardo: La escuela necesita más voluntarios para el evento.")
         esperar()
         print("\n¿Qué respondes?")
@@ -48,7 +47,7 @@ def dialogos_neverardo(eleccion_actual,ronda_actual,puntos):
             print("Opción inválida")
         esperar()
 
-    if eleccion_actual == 13:
+    elif eleccion_actual == 13:
         print("\nNeverardo: A veces me preocupa no estar haciendo suficiente.")
         esperar()
         print("\n¿Qué respondes?")
@@ -70,7 +69,7 @@ def dialogos_neverardo(eleccion_actual,ronda_actual,puntos):
             print("\nOpción inválida")
         esperar()
 
-    if eleccion_actual == 18:
+    elif eleccion_actual == 18:
         print("\nNeverardo: ¿Qué piensas de la economía? Es mi materia favorita.")
         esperar()
         print("\n¿Qué respondes?")
@@ -92,7 +91,7 @@ def dialogos_neverardo(eleccion_actual,ronda_actual,puntos):
             print("\nOpción inválida")
         esperar()
 
-    if eleccion_actual == 23:
+    elif eleccion_actual == 23:
         print("\nNeverardo: A veces me siento abrumado por tantas responsabilidades.")
         esperar()
         print("\n¿Qué respondes?")
@@ -114,7 +113,7 @@ def dialogos_neverardo(eleccion_actual,ronda_actual,puntos):
             print("\nOpción inválida")
         esperar()
 
-    if eleccion_actual == 28:
+    elif eleccion_actual == 28:
         print("\nNeverardo: Me gustaría que hubiera más armonía en la escuela.")
         esperar()
         print("\n¿Qué respondes?")
@@ -136,7 +135,7 @@ def dialogos_neverardo(eleccion_actual,ronda_actual,puntos):
             print("\nOpción inválida")
         esperar()
 
-    if eleccion_actual == 33:
+    elif eleccion_actual == 33:
         print("\nNeverardo: ¿Has pensado en unirte al consejo estudiantil?")
         esperar()
         print("\n¿Qué respondes?")
@@ -158,7 +157,7 @@ def dialogos_neverardo(eleccion_actual,ronda_actual,puntos):
             print("Opción inválida")
         esperar()
 
-    if eleccion_actual == 38:
+    elif eleccion_actual == 38:
         print("\nNeverardo: Me alegra cuando la gente coopera.")
         esperar()
         print("\n¿Qué respondes?")
@@ -180,7 +179,7 @@ def dialogos_neverardo(eleccion_actual,ronda_actual,puntos):
             print("\nOpción inválida")
         esperar()
 
-    if eleccion_actual == 43:
+    elif eleccion_actual == 43:
         print("\nNeverardo: ¿Has pensado en tu futuro?")
         esperar()
         print("\n¿Qué respondes?")
@@ -202,7 +201,7 @@ def dialogos_neverardo(eleccion_actual,ronda_actual,puntos):
             print("\nOpción inválida")
         esperar()
 
-    if eleccion_actual == 48:
+    elif eleccion_actual == 48:
         print("\nNeverardo: Tu actitud últimamente me inspira.")
         esperar()
         print("\n¿Qué respondes?")
@@ -224,3 +223,5 @@ def dialogos_neverardo(eleccion_actual,ronda_actual,puntos):
         else:
             print("Opción inválida")
         esperar()
+
+    return ronda_actual

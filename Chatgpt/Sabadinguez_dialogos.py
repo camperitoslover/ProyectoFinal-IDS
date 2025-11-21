@@ -1,11 +1,10 @@
 # Ruta 1: Francisco Sabadínguez
 
 def dialogos_sabadinguez(eleccion_actual,ronda_actual,puntos):
-    
     from main import esperar
-
+    
     if eleccion_actual == 1:
-        print("\nSabadínguez: ¿Qué haces perdiendo el tiempo aquí? …Digo, ¿necesitabas algo?")
+        print("\nSabadínguez: ¿Qué haces perdiendo el tiempo aquí? ...Digo, ¿necesitabas algo?")
         esperar()
         print("\n¿Qué respondes?")
         print("1. Solo quería hablar contigo un rato, me gusta tu compañía.")
@@ -26,7 +25,7 @@ def dialogos_sabadinguez(eleccion_actual,ronda_actual,puntos):
             print("\nOpción invalida")
         esperar()
 
-    if eleccion_actual == 6:
+    elif eleccion_actual == 6:
         print("\nSabadínguez: Estoy leyendo esta novela, aunque probablemente no te interese.")
         esperar()
         print("\n¿Qué respondes?")
@@ -49,7 +48,7 @@ def dialogos_sabadinguez(eleccion_actual,ronda_actual,puntos):
             print("\nOpción invalida")
         esperar()
     
-    if eleccion_actual == 11:
+    elif eleccion_actual == 11:
         print("\nSabadínguez: Me dijeron que hay tortugas en el estanque hoy.")
         esperar()
         print("\n¿Qué respondes?")
@@ -71,7 +70,7 @@ def dialogos_sabadinguez(eleccion_actual,ronda_actual,puntos):
             print("\nOpción invalida")
         esperar()
     
-    if eleccion_actual == 16:
+    elif eleccion_actual == 16:
         print("\nSabadínguez: Recordé algo que me dijiste hace días. No pensé que fuera importante...")
         esperar()
         print("\n¿Qué respondes?")
@@ -93,7 +92,7 @@ def dialogos_sabadinguez(eleccion_actual,ronda_actual,puntos):
             print("\nOpción invalida")
         esperar()
     
-    if eleccion_actual == 21:
+    elif eleccion_actual == 21:
         print("\nSabadínguez: A veces siento que la gente no me entiende.")
         esperar()
         print("\n¿Qué respondes?")
@@ -115,7 +114,7 @@ def dialogos_sabadinguez(eleccion_actual,ronda_actual,puntos):
             print("\nOpción invalida")
         esperar()
     
-    if eleccion_actual == 26:
+    elif eleccion_actual == 26:
         print("\nSabadínguez: El club de literatura necesita más miembros...")
         esperar()
         print("\n¿Qué respondes?")
@@ -137,7 +136,7 @@ def dialogos_sabadinguez(eleccion_actual,ronda_actual,puntos):
             print("\nOpción invalida")
         esperar()
     
-    if eleccion_actual == 31:
+    elif eleccion_actual == 31:
         print("\nSabadínguez: No es que quiera pasar tiempo contigo... solo coincidimos mucho.")
         esperar()
         print("\n¿Qué respondes?")
@@ -159,7 +158,7 @@ def dialogos_sabadinguez(eleccion_actual,ronda_actual,puntos):
             print("\nOpción invalida")
         esperar()
     
-    if eleccion_actual == 36:
+    elif eleccion_actual == 36:
         print("\nSabadínguez: ¿Te gustan los poemas?")
         esperar()
         print("\n¿Qué respondes?")
@@ -182,7 +181,7 @@ def dialogos_sabadinguez(eleccion_actual,ronda_actual,puntos):
             print("\nOpción invalida")
         esperar()
     
-    if eleccion_actual == 41:
+    elif eleccion_actual == 41:
         print("\nSabadínguez: Hoy estás... diferente.”")
         esperar()
         print("\n¿Qué respondes?")
@@ -205,7 +204,7 @@ def dialogos_sabadinguez(eleccion_actual,ronda_actual,puntos):
             print("\nOpción invalida")
         esperar()
     
-    if eleccion_actual == 46:
+    elif eleccion_actual == 46:
         print("\nSabadínguez: No sé por qué sigo hablando contigo...")
         esperar()
         print("\n¿Qué respondes?")
@@ -226,4 +225,5 @@ def dialogos_sabadinguez(eleccion_actual,ronda_actual,puntos):
         else:
             print("\nOpción invalida")
         esperar()
-        
+
+    return ronda_actual

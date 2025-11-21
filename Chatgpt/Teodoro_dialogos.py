@@ -1,9 +1,8 @@
 # Ruta 4: Teodoro Portillo
 
 def dialogos_teodoro(eleccion_actual,ronda_actual,puntos):
-    
     from main import esperar
-    
+
     if eleccion_actual == 4:
         print("\nTeodoro: Ah... hola. No pensé que me saludaras.")
         esperar()
@@ -26,7 +25,7 @@ def dialogos_teodoro(eleccion_actual,ronda_actual,puntos):
             print("\nOpción inválida")
         esperar()
 
-    if eleccion_actual == 9:
+    elif eleccion_actual == 9:
         print("\nTeodoro: Estoy programando algo pequeño para la clase.")
         esperar()
         print("\n¿Qué respondes?")
@@ -49,7 +48,7 @@ def dialogos_teodoro(eleccion_actual,ronda_actual,puntos):
             print("\nOpción inválida")
         esperar()
 
-    if eleccion_actual == 14:
+    elif eleccion_actual == 14:
         print("\nTeodoro: ¿Has visto Alvin y las ardillas?")
         esperar()
         print("\n¿Qué respondes?")
@@ -72,7 +71,7 @@ def dialogos_teodoro(eleccion_actual,ronda_actual,puntos):
             print("\nOpción inválida")
         esperar()
 
-    if eleccion_actual == 19:
+    elif eleccion_actual == 19:
         print("\nTeodoro: ¿Te gusta el anime?")
         esperar()
         print("\n¿Qué respondes?")
@@ -95,7 +94,7 @@ def dialogos_teodoro(eleccion_actual,ronda_actual,puntos):
             print("\nOpción inválida")
         esperar()
 
-    if eleccion_actual == 24:
+    elif eleccion_actual == 24:
         print("\nTeodoro: Me da pena cuando la gente me mira.")
         esperar()
         print("\n¿Qué respondes?")
@@ -117,7 +116,7 @@ def dialogos_teodoro(eleccion_actual,ronda_actual,puntos):
             print("\nOpción inválida")
         esperar()
 
-    if eleccion_actual == 29:
+    elif eleccion_actual == 29:
         print("\nTeodoro: Hice galletas... ¿quieres?")
         esperar()
         print("\n¿Qué respondes?")
@@ -140,7 +139,7 @@ def dialogos_teodoro(eleccion_actual,ronda_actual,puntos):
             print("\nOpción inválida")
         esperar()
 
-    if eleccion_actual == 34:
+    elif eleccion_actual == 34:
         print("\nTeodoro: Estuve jugando un RPG anoche.")
         esperar()
         print("\n¿Qué respondes?")
@@ -162,7 +161,7 @@ def dialogos_teodoro(eleccion_actual,ronda_actual,puntos):
             print("\nOpción inválida")
         esperar()
 
-    if eleccion_actual == 39:
+    elif eleccion_actual == 39:
         print("\nTeodoro: A veces pienso que soy muy débil.")
         esperar()
         print("\n¿Qué respondes?")
@@ -185,7 +184,7 @@ def dialogos_teodoro(eleccion_actual,ronda_actual,puntos):
             print("\nOpción inválida")
         esperar()
 
-    if eleccion_actual == 44:
+    elif eleccion_actual == 44:
         print("\nTeodoro: ¿Crees que soy una carga?")
         esperar()
         print("\n¿Qué respondes?")
@@ -207,7 +206,7 @@ def dialogos_teodoro(eleccion_actual,ronda_actual,puntos):
             print("\nOpción inválida")
         esperar()
 
-    if eleccion_actual == 49:
+    elif eleccion_actual == 49:
         print("\nTeodoro: Nunca pensé que alguien quisiera pasar tiempo conmigo.")
         esperar()
         print("\n¿Qué respondes?")
@@ -228,3 +227,5 @@ def dialogos_teodoro(eleccion_actual,ronda_actual,puntos):
         else:
             print("Opción inválida")
         esperar()
+
+    return ronda_actual

@@ -1,7 +1,6 @@
 # Ruta 2: Julian Apple
 
 def dialogos_julian(eleccion_actual,ronda_actual,puntos):
-    
     from main import esperar
     
     if eleccion_actual == 2:
@@ -13,7 +12,6 @@ def dialogos_julian(eleccion_actual,ronda_actual,puntos):
         print("3. No estoy de humor.")
         r = int(input("\nElige una opción (1-3): "))
         ronda_actual += 1
-        
 
         if r == 1:
             print("\nJulian: Uy, qué peligroso, me vas a hacer sonrojar.")
@@ -26,7 +24,6 @@ def dialogos_julian(eleccion_actual,ronda_actual,puntos):
         else:
             print("\nOpción inválida")
         esperar()
-    
 
     elif eleccion_actual == 7:
         print("\nJulian: ¿Probaste la pizza nueva del comedor?")
@@ -51,7 +48,7 @@ def dialogos_julian(eleccion_actual,ronda_actual,puntos):
             print("\nOpción inválida")
         esperar()
 
-    if eleccion_actual == 12:
+    elif eleccion_actual == 12:
         print("\nJulian: Fallé un examen... y ni estudiando.")
         esperar()
         print("\n¿Qué respondes?")
@@ -73,7 +70,7 @@ def dialogos_julian(eleccion_actual,ronda_actual,puntos):
             print("\nOpción inválida")
         esperar()
 
-    if eleccion_actual == 17:
+    elif eleccion_actual == 17:
         print("\nJulian: ¿Me ves como alguien coqueto?")
         esperar()
         print("\n¿Qué respondes?")
@@ -95,7 +92,7 @@ def dialogos_julian(eleccion_actual,ronda_actual,puntos):
             print("\nOpción inválida")
         esperar()
 
-    if eleccion_actual == 22:
+    elif eleccion_actual == 22:
         print("\nJulian: No me gusta ver a mis amigos tristes.")
         esperar()
         print("\n¿Qué respondes?")
@@ -117,7 +114,7 @@ def dialogos_julian(eleccion_actual,ronda_actual,puntos):
             print("\nOpción inválida")
         esperar()
 
-    if eleccion_actual == 27:
+    elif eleccion_actual == 27:
         print("\nJulian: Te ves súper bien hoy... Digo, normal.")
         esperar()
         print("\n¿Qué respondes?")
@@ -140,7 +137,7 @@ def dialogos_julian(eleccion_actual,ronda_actual,puntos):
             print("\nOpción inválida")
         esperar()
 
-    if eleccion_actual == 32:
+    elif eleccion_actual == 32:
         print("\nJulian: A veces quiero tomarme la vida con calma.")
         esperar()
         print("\n¿Qué respondes?")
@@ -162,7 +159,7 @@ def dialogos_julian(eleccion_actual,ronda_actual,puntos):
             print("\nOpción inválida")
         esperar()
 
-    if eleccion_actual == 37:
+    elif eleccion_actual == 37:
         print("\nJulian: Me dijeron que eras divertido.")
         esperar()
         print("¿Qué respondes?")
@@ -184,7 +181,7 @@ def dialogos_julian(eleccion_actual,ronda_actual,puntos):
             print("\nOpción inválida")
         esperar()
 
-    if eleccion_actual == 42:
+    elif eleccion_actual == 42:
         print("\nJulian: ¿Quieres venir a ver un partido conmigo?")
         esperar()
         print("\n¿Qué respondes?")
@@ -207,7 +204,7 @@ def dialogos_julian(eleccion_actual,ronda_actual,puntos):
             print("\nOpción inválida")
         esperar()
 
-    if eleccion_actual == 47:
+    elif eleccion_actual == 47:
         print("\nJulian: Si fueras un sabor de pizza... ¿cuál serías?")
         esperar()
         print("\n¿Qué respondes?")
@@ -228,3 +225,5 @@ def dialogos_julian(eleccion_actual,ronda_actual,puntos):
         else:
             print("\nOpción inválida")
         esperar()
+
+    return ronda_actual
