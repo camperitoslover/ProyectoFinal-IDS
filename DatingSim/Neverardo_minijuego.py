@@ -39,5 +39,3 @@ def minijuego_neverardo(puntos):
         print("\nNo lograste ganar los puntos adicionales")
         
     return puntos["Neverardo"]
-
-minijuego_neverardo()

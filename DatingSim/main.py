@@ -70,13 +70,13 @@ print("4. Teodoro - el programador tímido")
 minijuego = int(input("\n¿Con que personaje quieres jugar): "))
 
 if minijuego == 1:
-    puntos["Sabadínguez"] = minijuego_sabadinguez(puntos)
+    minijuego_sabadinguez(puntos)
 elif minijuego == 2:
-    puntos["Julian"] = minijuego_julian(puntos)
+    minijuego_julian(puntos)
 elif minijuego == 3:
-    puntos["Neverardo"] = minijuego_neverardo(puntos)
+    minijuego_neverardo(puntos)
 elif minijuego == 4:
-    puntos["Teodoro"] = minijuego_teodoro(puntos)
+    minijuego_teodoro(puntos)
 else:
     print("Opción invalida, no ganas puntos extra")
 

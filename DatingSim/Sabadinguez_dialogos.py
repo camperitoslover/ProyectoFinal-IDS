@@ -181,7 +181,7 @@ def dialogos_sabadinguez(eleccion_actual,ronda_actual,puntos):
         input("\n( ❥ Presiona ENTER para continuar )")
     
     elif eleccion_actual == 41:
-        print("\nSabadínguez: Hoy estás... diferente.”")
+        print("\nSabadínguez: Hoy estás... diferente.")
         input("\n( ❥ Presiona ENTER para continuar )")
         print("\n¿Qué respondes?")
         print("1. ¿Me lo dices porque me estás observando?")

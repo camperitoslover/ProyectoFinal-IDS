@@ -31,7 +31,7 @@ def minijuego_julian(puntos):
             input("Respuesta incorrecta. Presiona ENTER para continuar.")
 
     #Conclusión y puntos del juego
-    if puntos >= 5:
+    if puntos_adicionales >= 5:
         print("\nJulian Apple: ¡Vaya! No sabía que eras tan bueno en matemáticas, supongo que te subestimé...")
         print("\nFelicidades ganas puntos adicionales")
         puntos["Julian"] += 5
