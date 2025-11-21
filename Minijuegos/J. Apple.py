@@ -1,5 +1,5 @@
 #Indicaciones
-print("\nJuego: Razonamiento Matemático")
+print("\nJuego: Razonamiento Matemático con Julian Apple")
 input("❥ Presiona ENTER para continuar")
 print("\n¡Impresiona a Julian con tus habilidades numéricas!")
 input("❥ CONTINUAR")

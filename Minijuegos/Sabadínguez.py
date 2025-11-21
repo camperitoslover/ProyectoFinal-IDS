@@ -1,52 +1,60 @@
 #Indicaciones del juego
-
-print("\nJuego: Adivina el Significado")
+print("\nJuego: Adivina el Significado con Sabadínguez")
 input("❥ Presiona ENTER para continuar")
 print("\nAyuda a Sabadínguez a escribir un poema para la feria de literatura")
 input("❥ CONTINUAR")
 print("\nSelecciona el significado correcto de los salvadoreñismos")
 input("❥ CONTINUAR")
 
-import random
+#Conteo de puntos adicionales
+puntos = 0
 
-puntaje = 0
-
+#Diccionario formato "salvadoreñismo: definición"
 salvadoreñismos = {"canillera":"piernas",
-                   "amarre":"no m acuerdo",
+                   "amarre":"compromiso",
                    "desteñirse":"morir",
                    "la de hacer versos":"cabeza",
-                   "bisagras":"rodillas"}
+                   "bisagras":"rodillas",
+                   "máscara":"cara",
+                   "aceitunas":"ojos",
+                   "claveles":"dedos",
+                   "buñuelo":"nariz",
+                   "dulzaina":"sonrisa"}
 
-letras = ["a", "b", "c"]
+#Función random
+import random
 
-for salvadoreñismo, significado in salvadoreñismos.items():
-
-    palabras = list(salvadoreñismos.values())
-    (palabras.remove(significado))
-    palabras = random.sample(palabras, 2)
-
-    opciones = [significado] + palabras
+#Bucle de ejecución del minijuego
+for s, d in salvadoreñismos.items():
+    #Creación de lista adicional de respuestas incorrectas usando sample
+    incorrectas = list(salvadoreñismos.values())
+    incorrectas.remove(d)
+    incorrectas = random.sample(incorrectas, 2)
+    #Función shuffle para randomizar el lugar de la respuesta correcta
+    opciones = [d] + incorrectas
     random.shuffle(opciones)
+    
+    print(f"\n¿Qué significa el siguiente salvadoreñismo?: {s}")
+    
+    for numero, opcion in enumerate(opciones, start=1):
+        print(f"{numero}. {opcion}")
 
-    print(f"\n¿Qué significa la siguiente palabra?: {salvadoreñismo}")
-
-    for letra, opcion in zip(letras, opciones):
-        print(f"{letra}. {opcion}")
-
-    respuesta = input("\nElige tu respuesta: ").lower()
-
-    indice = letras.index(respuesta)
-    eleccion = opciones[indice]
-
-    if eleccion == significado:
-        print("¡Correcto!")
-        puntaje += 1
+    respuesta = int(input("Ingresa tu respuesta (1-3): "))
+    
+    correcta = opciones.index(d)+1
+    
+    if respuesta == correcta:
+        input("\n¡Bien! Has definido correctamente la palabra. Presiona ENTER para continuar.")
+        puntos += 1
+    elif respuesta > 3:
+        input("\nEsa respuesta no es válida. Presiona ENTER para continuar")
     else:
-        print(f"Incorrecto. La respuesta correcta era: {significado}")
+        input("\nDefinición Incorrecta. Presiona ENTER para continuar")
 
-print(f"Has acertado {puntaje} de 5 salvadoreñismos")
-
-if puntaje >= 3:
-    print("¡Gracias por ayudarme en mi poema para la feria de literatura!")
+#Conclusión y puntos del juego  
+if puntos > 6:
+    print("Sabadínguez: Oh… lo lograste. Debo admitir que eso fue… bastante admirable.")
 else:
-    print("Bueno... al menos lo intentaste, ¡lo harás mejor en otra ocasión!")
+    print("Sabadínguez: No pasa nada… incluso en los mejores libros hay capítulos difíciles.")
+
+#Añadir puntos adicionales al puntaje central
