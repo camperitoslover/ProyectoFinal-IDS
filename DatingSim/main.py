@@ -34,7 +34,7 @@ print("\nCuatro estudiantes llaman tu atención en el pasillo principal...")
 esperar()
 
 while ronda_actual <= MAX_RONDAS:
-    print("1. Sabadínguez - el amante de las letras y las tortugas")
+    print("\n1. Sabadínguez - el amante de las letras y las tortugas")
     print("2. Julian Apple - el rebelde genio de las matemáticas")
     print("3. Never - el líder alegre del consejo estudiantil")
     print("4. Teodoro - el programador tímido")
@@ -69,50 +69,49 @@ confesion = True
 
 while confesion == True:
     if eleccion == 1:
-        if puntos["Sabadínguez"] >= 20:
-            print("\nSabadínguez ha aceptado tu confesión. Ambos se dan su primer beso mientras una lluvia de cerezos cae lentamente.")
+        if puntos["Sabadínguez"] >= 12:
+            print("\nSabadínguez ha aceptado tu confesión. Ambos se dan su primer beso mientras una lluvia de maquilishuats cae lentamente.")
             print("\nFin del Juego")
             print("¡Gracias por Jugar!")
             break
         else:
-            print("\nSabadínguez ha rechazado tu confesión. La relación entre ambos se vuelve incomoda...pero quiza puedas encontrar el amor en otro lugar.")
+            print("\nSabadínguez ha rechazado tu confesión. La relación entre ambos se vuelve incómoda...pero quiza puedas encontrar el amor en otro lugar.")
             print("\nFin del Juego")
             print("¡Gracias por Jugar!")
-            print(puntos["Sabadínguez"])
             break
 
     if eleccion == 2:
-        if puntos["Julian"] >= 20:
-            print("\nJulian ha aceptado tu confesión. Ambos se dan su primer beso mientras una lluvia de cerezos cae lentamente.")
+        if puntos["Julian"] >= 12:
+            print("\nJulian ha aceptado tu confesión. Ambos se dan su primer beso mientras una lluvia de maquilishuats cae lentamente.")
             print("\nFin del Juego")
             print("¡Gracias por Jugar!")
             break
         else:
-            print("\nJulian ha rechazado tu confesión. La relación entre ambos se vuelve incomoda...pero quiza puedas encontrar el amor en otro lugar.")
+            print("\nJulian ha rechazado tu confesión. La relación entre ambos se vuelve incómoda...pero quiza puedas encontrar el amor en otro lugar.")
             print("\nFin del Juego")
             print("¡Gracias por Jugar!")
             break
             
     if eleccion == 3:
-        if puntos["Neverardo"] >= 20:
-            print("\nNeverardo ha aceptado tu confesión. Ambos se dan su primer beso mientras una lluvia de cerezos cae lentamente.")
+        if puntos["Neverardo"] >= 12:
+            print("\nNeverardo ha aceptado tu confesión. Ambos se dan su primer beso mientras una lluvia de maquilishuats cae lentamente.")
             print("\nFin del Juego")
             print("¡Gracias por Jugar!")
             break
         else:
-            print("\nNeverardo ha rechazado tu confesión. La relación entre ambos se vuelve incomoda...pero quiza puedas encontrar el amor en otro lugar.")
+            print("\nNeverardo ha rechazado tu confesión. La relación entre ambos se vuelve incómoda...pero quiza puedas encontrar el amor en otro lugar.")
             print("\nFin del Juego")
             print("¡Gracias por Jugar!")
             break
 
     if eleccion == 4:
-        if puntos["Teodoro"] >= 20:
-            print("\nTeodoro ha aceptado tu confesión. Ambos se dan su primer beso mientras una lluvia de cerezos cae lentamente.")
+        if puntos["Teodoro"] >= 12:
+            print("\nTeodoro ha aceptado tu confesión. Ambos se dan su primer beso mientras una lluvia de maquilishuats cae lentamente.")
             print("\nFin del Juego")
             print("¡Gracias por Jugar!")
             break
         else:
-            print("\nTeodoro ha rechazado tu confesión. La relación entre ambos se vuelve incomoda...pero quiza puedas encontrar el amor en otro lugar.")
+            print("\nTeodoro ha rechazado tu confesión. La relación entre ambos se vuelve incómoda...pero quiza puedas encontrar el amor en otro lugar.")
             print("\nFin del Juego")
             print("¡Gracias por Jugar!")
             break

@@ -1,6 +1,6 @@
 #Indicaciones
 print("\nJuego: Razonamiento Matemático con Julian Apple")
-input("❥ Presiona ENTER para continuar")
+input("\n( ❥ Presiona ENTER para continuar )")
 print("\n¡Impresiona a Julian con tus habilidades numéricas!")
 input("❥ CONTINUAR")
 print("\nResuelve los problemas numéricos correctamente, la respuesta siempre será un entero")

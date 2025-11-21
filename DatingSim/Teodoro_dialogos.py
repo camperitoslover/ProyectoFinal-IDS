@@ -104,7 +104,7 @@ def dialogos_teodoro(eleccion_actual,ronda_actual,puntos):
         ronda_actual += 1
 
         if r == 1:
-            print("\nTeodoro: ¿I-increíble yo? ...Gracias... eso me anima mucho.")
+            print("\nTeodoro: ¿I-increíble yo?... Gracias... eso me anima mucho.")
             puntos["Teodoro"] += 3
         elif r == 2:
             print("\nTeodoro: Jaja, sí... un poquito.")

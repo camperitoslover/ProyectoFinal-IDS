@@ -1,6 +1,6 @@
 #Indicaciones
 print("\nJuego: Lecciones de Python con Teodoro")
-input("❥ Presiona ENTER para continuar")
+input("\n( ❥ Presiona ENTER para continuar )")
 print("\n¿Puedes seguirle el ritmo a Teodoro en programación?")
 input("❥ CONTINUAR")
 print("\nLlena los espacios con las palabras faltantes para que el código funcione")
@@ -18,7 +18,7 @@ def a2():
 def a3():
     print("Teodoro".upper())
 def a4():
-    print("La lista ha sido creada exitosamente")
+    print("La lista ha sido creada exitosamente.")
 def a5():
     lista.append(input("Ingresa el primer string: "))
     lista.append(input("Ingresa el segundo string: "))

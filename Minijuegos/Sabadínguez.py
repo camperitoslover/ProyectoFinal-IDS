@@ -1,6 +1,6 @@
 #Indicaciones del juego
 print("\nJuego: Adivina el Significado con Sabadínguez")
-input("❥ Presiona ENTER para continuar")
+input("\n( ❥ Presiona ENTER para continuar )")
 print("\nAyuda a Sabadínguez a escribir un poema para la feria de literatura")
 input("❥ CONTINUAR")
 print("\nSelecciona el significado correcto de los salvadoreñismos")
